@@ -29,7 +29,8 @@ import new
 import types
 from comtypes.automation import VARIANT, VT_I4, VT_DISPATCH
 from ctypes import c_long, oledll, byref, create_unicode_buffer
-from comtypes.gen.Accessibility import IAccessible
+from comtypes.gen.Accessibility   import IAccessible
+from comtypes.gen.IAccessible2Lib import IAccessible2
 from comtypes import named_property, COMError, hresult
 from constants import CHILDID_SELF, \
     UNLOCALIZED_ROLE_NAMES, \
