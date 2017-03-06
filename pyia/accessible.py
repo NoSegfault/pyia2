@@ -27,6 +27,12 @@ Boston, MA 02111-1307, USA.
 
 import new
 import types
+
+
+
+from comtypes.client import GetModule
+IAccessible2 = GetModule('ia2.tlb')
+
 from comtypes.automation import VARIANT, VT_I4, VT_DISPATCH
 from ctypes import c_long, oledll, byref, create_unicode_buffer
 from comtypes.gen.Accessibility   import IAccessible
@@ -35,6 +41,7 @@ from comtypes import named_property, COMError, hresult
 from constants import CHILDID_SELF, \
     UNLOCALIZED_ROLE_NAMES, \
     UNLOCALIZED_STATE_NAMES
+
 
 def _makeExceptionHandler(func):
     '''
