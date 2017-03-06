@@ -6,7 +6,7 @@ The purpose of the project is to support ARIA and HTML implementation testing as
 
 ## References
 * [pyia project](https://github.com/eeejay/pyia)
-* [Accessible Technology Test Adapter API](https://spec-ops.github.io/atta-api/)
+* [W3C Accessible Technology Test Adapter API Specification](https://spec-ops.github.io/atta-api/)
 * [Spec-Ops: ATTA tools](https://github.com/Spec-Ops/web-platform-tests/tree/atk-atspi-atta/wai-aria/tools)
 * [Microsoft Active Accessibility: Architecture](https://msdn.microsoft.com/en-us/library/ms971310.aspx?f=255&MSPPError=-2147217396)
 * [The Linux Foundation: IAccessible2](https://wiki.linuxfoundation.org/accessibility/iaccessible2/start)
