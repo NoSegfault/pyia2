@@ -9,8 +9,10 @@ The purpose of the project is to support ARIA and HTML implementation testing as
 * Install python 2.7 for Windows
 * Install comtypes library using pip
   
-  pip install comtypes
-  
+```
+pip install comtypes
+```
+
 * Clone this repository
 
 ## Examples
