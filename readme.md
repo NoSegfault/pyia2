@@ -8,7 +8,9 @@ The purpose of the project is to support ARIA and HTML implementation testing as
 
 * Install python 2.7.x
 * Insall comtypes library
+  
   pip install comtypes
+  
 * Clone this repository
 
 ## References
