@@ -7,11 +7,15 @@ The purpose of the project is to support ARIA and HTML implementation testing as
 ## Installation Requirements
 
 * Install python 2.7.x
-* Insall comtypes library
+* Insall comtypes library using pip
   
   pip install comtypes
   
 * Clone this repository
+
+## Examples
+* test.py will display a list of information on the currenly open windows
+* test-callback.py will list events related to document loads and focus changes
 
 ## References
 * [pyia project](https://github.com/eeejay/pyia)
