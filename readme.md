@@ -6,7 +6,7 @@ The purpose of the project is to support ARIA and HTML implementation testing as
 
 ## Installation Requirements
 
-* Install python 2.7.x
+* Install python 2.7 for Windows
 * Insall comtypes library using pip
   
   pip install comtypes
